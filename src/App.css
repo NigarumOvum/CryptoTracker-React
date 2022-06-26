@@ -1,0 +1,41 @@
+.app-body {
+  padding: 10px;
+}
+
+.pagination-component {
+  display: flex;
+  flex-direction: row;
+}
+
+.pagination-button {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination-button a {
+  padding: 7px 12px 7px 12px;
+  border-radius: 1px;
+  background-color: #e0e0e0;
+  border: solid 0.5px #bdbdbd;
+  color: #1e1e1e;
+}
+
+.pagination-button a:hover {
+  color: black;
+}
+
+.pagination-active a {
+  background-color: green;
+  color: white;
+  border: solid 0.5px green;
+}
+
+.pagination-active a:hover {
+  background-color: green;
+  color: white;
+}
+
+.crypto-name{
+  cursor: pointer;
+}
