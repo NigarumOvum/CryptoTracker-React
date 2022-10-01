@@ -1,1 +1,5 @@
 
+
+React
+Axios
+Firebase
